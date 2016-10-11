@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    padding: 20px;
+}
+
+.calendar {
+    height: 720px;
+    width: 700px;
+    margin: auto;
+}
+
+#events {
+    width: 600px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    background: #ECECEC;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    border-left: 2px solid #CCCCCC;
+}
+
+.time-slots, #events {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.time-slots {
+    text-align: right;
+    width: 70px;
+}
+
+.time-slots div {
+    position: relative;
+    height: 30px;
+}
+
+.time-slots div:nth-child(odd) {
+    font-size: 16px;
+    color: #686868;
+}
+
+.time-slots div:nth-child(even) {
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.time-slots div .period {
+    font-size: 12px;
+}
+
+.event {
+    position: absolute;
+    box-sizing: border-box;
+    border-left: 4px solid green;
+    background: white;
+    overflow: hidden;
+}
+
+.content-wrapper{
+    padding: 5px;
+}
+
+.event .title{
+    font-size: 16px;
+    color: green;
+    display: block;
+}
+
+.event .location{
+    font-size: 14px;
+    color: #CCCCCC;
+}
