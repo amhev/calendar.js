@@ -1,7 +1,9 @@
 # Google calendar like app
 
+Get array of events and show them on the calendar.
+
 For example, run:
 
-var events = [{ start: 30 , end: 150} , {start: 80, end: 250}];
+    layOutDay([{ start: 30 , end: 150} , {start: 80, end: 250}]); 
 
-layOutDay(events);
+
